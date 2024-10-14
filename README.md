@@ -30,7 +30,6 @@ Este projeto foi desenvolvido para praticar e melhorar habilidades de front-end,
 ## 🖼️ Capturas de Tela
 - Versão Desktop
 ![Screenshot do Jogo](./images/desktop.png)
-
-------------------------------------------------
 - Versão Moblie
+
 ![Screenshot do Jogo](./images/moblie.png)
