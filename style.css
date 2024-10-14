@@ -4,7 +4,7 @@ body {
   height: 100vh;
 }
 .container {
-  height: 80%;
+  max-width: 95%;
 }
 
 .CardsContainer {
