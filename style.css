@@ -1,9 +1,10 @@
 body {
   background-color: #eef9bf;
   font-family: "Roboto", sans-serif;
+  height: 100vh;
 }
 .container {
-  height: 100vh;
+  height: 80%;
 }
 
 .CardsContainer {
@@ -15,12 +16,13 @@ body {
   padding: 25px;
 }
 h1 {
-  padding-top: 25px;
   font-size: 51px;
   text-transform: uppercase;
   color: #75b79e;
   font-weight: bold;
   text-align: center;
+
+  padding: 70px 0px;
 }
 
 .card {
@@ -29,9 +31,13 @@ h1 {
   position: relative;
   cursor: pointer;
 }
-.front-face img,
-.back-face img {
+.front-face img {
   max-width: 100%;
+  height: auto;
+}
+.back-face img {
+  width: 150px;
+  height: auto;
 }
 .face {
   width: 100%;
@@ -44,10 +50,9 @@ h1 {
   justify-content: center;
   position: absolute;
   backface-visibility: hidden;
-  transition: transform 0.7s;
+  transition: all 0.7s;
   transform-style: preserve-3d;
 }
-
 .back-face {
   transform: rotateY(180deg);
 }
@@ -58,4 +63,16 @@ h1 {
 
 .card.virar .front-face {
   transform: rotateY(-180deg);
+}
+.card.aberta .back-face {
+  transform: rotateY(0deg);
+}
+
+.card.aberta .front-face {
+  transform: rotateY(-180deg);
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
 }
