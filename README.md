@@ -4,7 +4,7 @@ Bem-vindo ao **Parrot Card Game**, um jogo da memória divertido e interativo co
 
 ## 🎮 Demo
 
-Você pode conferir o jogo ao vivo clicando [aqui](https://yurenathan.github.io/parrot-card-game/).
+Você pode conferir o jogo clicando [aqui](https://yurenathan.github.io/parrot-card-game/).
 
 ## 📜 Sobre o Projeto
 
